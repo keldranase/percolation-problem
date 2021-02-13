@@ -13,7 +13,7 @@
 
 import edu.princeton.cs.algs4.QuickUnionUF;
 
-public class Percolation {
+public class Percolation implements IPercolation {
 
     private int[] arr;  // something
     private int n;  // something

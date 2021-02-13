@@ -27,7 +27,7 @@ public class PercolationVisualizer {
     private static final int DELAY = 100;
 
     // draw n-by-n percolation system
-    public static void draw(Percolation percolation, int n) {
+    public static void draw(IPercolation percolation, int n) {
         StdDraw.clear();
         StdDraw.setPenColor(StdDraw.BLACK);
         StdDraw.setXscale(-0.05 * n, 1.05 * n);

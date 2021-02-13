@@ -31,7 +31,8 @@ public class InteractivePercolationVisualizer {
         // repeatedly open site specified by mouse click and draw system
         StdOut.println("The N is:: " + n);
 
-        Percolation percolation = new Percolation(n);
+        //IPercolation percolation = new Percolation(n);
+        IPercolation percolation = new UnionBasedPercolation(n);
         PercolationVisualizer.draw(percolation, n);
         StdDraw.show();
 
